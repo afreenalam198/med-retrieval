@@ -1,0 +1,35 @@
+# Core ML/DL
+torch==2.10.0
+torchvision==0.25.0
+transformers==5.1.0
+open-clip-torch==3.2.0
+
+# Medical imaging
+medmnist==3.0.2
+
+# Vector database
+qdrant-client==1.16.2
+
+# Data processing 
+numpy==2.4.2
+pandas==3.0.0
+Pillow==11.0.0
+
+# Visualization 
+matplotlib==3.10.0
+seaborn==0.13.2
+plotly==6.0.0
+
+# Evaluation & ML utilities
+scikit-learn==1.8.0
+scipy==1.15.0
+tqdm==4.67.0
+
+# API access
+google-genai==1.62.0
+
+# Jupyter & Utilities
+jupyter==1.1.0
+ipykernel==6.29.0
+pyyaml==6.0.2
+python-dotenv==1.0.1

@@ -1,0 +1,46 @@
+# Experiment Configuration
+# All hyperparameters for the histopathology retrieval benchmark
+
+data:
+  raw_data_path: data/raw/
+  processed_data_path: data/processed/
+  embeddings_path: data/embeddings/
+  train_split: 0.7
+  val_split: 0.15
+  test_split: 0.15
+
+models:
+  biomedclip:
+    checkpoint: models/biomedclip/
+    enabled: true
+  clip:
+    checkpoint: models/clip/
+    enabled: true
+  uni:
+    checkpoint: models/uni/
+    enabled: false
+  resnet:
+    checkpoint: models/resnet/
+    enabled: true
+
+embedding:
+  batch_size: 32
+  num_workers: 4
+  device: cuda
+
+qdrant:
+  storage_path: qdrant_storage/
+  vector_size: 512
+  metric_type: cosine
+
+evaluation:
+  metrics:
+    - retrieval_accuracy
+    - precision_at_k
+    - ndcg
+  k_values: [1, 5, 10]
+
+results:
+  metrics_path: results/metrics/
+  figures_path: results/figures/
+  logs_path: results/logs/
