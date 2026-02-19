@@ -1,0 +1,9 @@
+Class ID,Class Name,Train,Imbalance Factor,Val,Test,Total,Train %
+0,"Collecting Duct, Connecting Tubule",53075,1.00x,7582,15165,75822,32.08%
+1,Distal Convoluted Tubule,7814,6.79x,1117,2233,11164,4.72%
+2,Glomerular endothelial cells,5866,9.05x,838,1677,8381,3.55%
+3,Interstitial endothelial cells,15406,3.45x,2201,4402,22009,9.31%
+4,Leukocytes,11789,4.50x,1684,3369,16842,7.12%
+5,Podocytes,7705,6.89x,1101,2202,11008,4.66%
+6,Proximal Tubule Segments,39203,1.35x,5601,11201,56005,23.69%
+7,Thick Ascending Limb,24608,2.16x,3516,7031,35155,14.87%
