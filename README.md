@@ -322,9 +322,7 @@ Silhouette Score: -0.0253
 
 ---
 
-## 🎓 Educational Value
-
-### For Machine Learning Students
+## 🎓 My Learnings
 
 **Concepts Demonstrated:**
 - ✅ Embedding spaces and similarity search
@@ -332,8 +330,6 @@ Silhouette Score: -0.0253
 - ✅ Class imbalance in real-world datasets
 - ✅ Evaluation methodology (balanced queries, macro averaging)
 - ✅ Clustering quality metrics (silhouette, Davies-Bouldin)
-
-### For Medical AI Researchers
 
 **Practical Lessons:**
 - ✅ Domain-specific models don't guarantee success
@@ -344,17 +340,6 @@ Silhouette Score: -0.0253
 ---
 
 ## 📊 Computational Requirements
-
-### Resource Usage
-
-| Phase | Time | RAM Peak | Storage |
-|-------|------|----------|---------|
-| **Data Download** | 5 min | 0.5 GB | 5 GB |
-| **Embedding Generation** | 60 min | 6.5 GB | 15 GB |
-| **Qdrant Upload** | 10 min | 4 GB | 8 GB |
-| **Evaluation** | 15 min | 3 GB | 2 GB |
-| **Visualization** | 5 min | 2 GB | 0.5 GB |
-| **Total** | **95 min** | **6.5 GB** | **30.5 GB** |
 
 **Optimizations for 8GB RAM:**
 - Batch processing (32 images/batch)
