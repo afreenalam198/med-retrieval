@@ -1,6 +1,6 @@
 # Medical Image Retrieval Benchmark: BiomedCLIP on TissueMNIST
 
-A comprehensive evaluation of vision encoder (BiomedCLIP) for histopathology image retrieval under severe class imbalance, demonstrating fundamental limitations of low-resolution medical imaging for AI-based retrieval systems.
+A comprehensive evaluation of vision encoder (BiomedCLIP) for histopathology image retrieval under severe class imbalance, demonstrating the limitations of underrepresented tissue classes and low-resolution medical imaging for AI-based retrieval systems.
 
 ---
 
